@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Somos Trascender - Comunidad de Crecimiento Personal y Profesional</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <style>
+    /* Estilos CSS para la página */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff; /* Fondo blanco */
+    }
+
+    header {
+      background-color: #e2a54c; /* Color de fondo de encabezado */
+      color: #fff; /* Texto blanco en encabezado */
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .owl-carousel .event-card {
+      background-color: #fff; /* Fondo blanco de tarjeta de evento */
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    }
+
+    .owl-carousel .event-card h2 {
+      margin-top: 0;
+      color: #e2a54c; /* Color de título del evento */
+    }
+
+    .owl-carousel .event-card img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .owl-carousel .event-card p {
+      color: #333; /* Color de texto de descripción del evento */
+    }
+
+    .members-section {
+      margin-top: 40px;
+    }
+
+    .members-section h2 {
+      margin-bottom: 10px;
+      color: #e2a54c; /* Color de título de miembros */
+    }
+
+    .members-section ul {
+      color: #333; /* Color de texto de miembros */
+    }
+
+    .social-media {
+      margin-top: 40px;
+    }
+
+    .social-media h2 {
+      margin-bottom: 10px;
+      color: #e2a54c; /* Color de título de redes sociales */
+    }
+
+    .social-media a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #e2a54c; /* Color de enlaces de redes sociales */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Somos Trascender</h1>
+      <p>Comunidad de Crecimiento Personal y Profesional</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Próximos Eventos</h2>
+      <div class="owl-carousel">
+    <div class="event-card">
+      <h2>Chat GPT</h2>
+      <img src="https://cuarteldelmetal.com/wp-content/uploads/2023/03/chatgpt.jpg" alt="Imagen del evento">
+      <p>Descubre el poder de la inteligencia artificial en nuestras vidas. ¡Únete al Chat GPT y sé parte de la conversación! ¡No te lo pierdas!</p>
+    </div>
+    <div class="event-card">
+      <h2>Título del Evento 2</h2>
+      <img src="imagen2.jpg" alt="Imagen del evento 2">
+      <p>Descripción corta del tema que se va a tratar en el Evento 2.</p>
+    </div>
+    <!-- Agrega más eventos con la misma estructura -->
+
+  </div>
+
+  <div class="members-section">
+    <h2>Miembros</h2>
+    <!-- Lista de miembros de la comunidad -->
+    <ul>
+      <li>Nombre Miembro 1</li>
+      <li>Nombre Miembro 2</li>
+      <li>Nombre Miembro 3</li>
+      <!-- Agrega más miembros según sea necesario -->
+    </ul>
+  </div>
+
+  <div class="social-media">
+    <h2>Redes Sociales</h2>
+    <!-- Enlaces a las redes sociales de la comunidad -->
+    <a href="https://facebook.com/somos_trascender">Facebook</a>
+    <a href="https://twitter.com/somos_trascender">Twitter</a>
+    <!-- Agrega más enlaces a otras redes sociales según sea necesario -->
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000, // Cambiar cada 5 segundos
+        autoplayHoverPause: true
+      });
+    });
+  </script>
+</body>
+</html>
